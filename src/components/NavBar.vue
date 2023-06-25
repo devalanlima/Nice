@@ -1,5 +1,5 @@
 <template>
-    <nav class="flex justify-between items-center relative">
+    <nav class="flex justify-between items-center relative z-10">
         <button class="h-[27px] w-[30px] flex justify-start group sm:ml-3 md:ml-24" title="Botão do menu" @click="toggleMenuView">
             <div
                 class="transition-all before:transition-all after:transition-all relative group-hover:w-[20px] group-hover:before:w-[30px] group-hover:after:w-[20px]
