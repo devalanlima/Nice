@@ -1,5 +1,7 @@
 <template>
-    <button class="px-10 py-3 border-[1px] border-branco self-baseline rounded-lg font-semibold text-branco">
+    <button class="px-10 py-3 border-[1px] border-branco self-baseline rounded-lg font-semibold text-branco
+    bg-gradient-to-r from-transparent from-50% to-branco to-50% bg-[length:200%_100%] hover:bg-[100%] transition-all hover:transition-all hover:text-roxo_escuro
+    ">
         {{ props.text }}
     </button>
 </template>
