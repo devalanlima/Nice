@@ -13,7 +13,11 @@ export default {
       },
       fontFamily:{
         'poppins': ['Poppins', 'sans-serif']
-      }
+      },
+      backgroundImage:{
+        'gradient-1': 'linear-gradient(180deg, rgba(0, 194, 255, 0.00) 0%, #AE97CB 100%)',
+        'gradient-2': 'linear-gradient(180deg, rgba(24, 75, 255, 0.00) 0%, #174AFF 100%)',
+      },
     },
   },
   plugins: [],
