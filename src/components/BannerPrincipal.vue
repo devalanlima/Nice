@@ -1,8 +1,8 @@
 <template>
     <div class="h-[1048px] w-full relative flex flex-col overflow-hidden">
-        <div class="mt-16 mx-auto pl-8 pr-4 flex flex-col gap-4">
+        <div class="mt-14 mx-auto pl-8 pr-4 flex flex-col gap-4">
             <h2 class="font-extrabold text-branco text-5xl leading-snug">Um slogan chamativo aqui.</h2>
-            <p class="text-branco text-lg tracking-tight">
+            <p class="text-branco text-lg tracking-tight leading-normal">
                 Um texto sobre o seu produto ou serviço. Explique <span class="text-amarelo font-bold">porque ele é valioso</span> e direcione o usuário ao
                 próximo objetivo.
             </p>
