@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[1048px] w-full relative flex flex-col">
+    <div class="h-[1048px] w-full relative flex flex-col overflow-hidden">
         <div class="mt-16 mx-auto pl-8 pr-4 flex flex-col gap-4">
             <h2 class="font-extrabold text-branco text-5xl leading-snug">Um slogan chamativo aqui.</h2>
             <p class="text-branco text-lg tracking-tight">
@@ -19,9 +19,6 @@
                 </div>
                 <div class="w-[152px] h-[215px] bg-gradient-2 absolute -bottom-10 blur-[100px]"></div>
             </div>
-        </div>
-        <div class="absolute bottom-0 left-0">
-            
         </div>
         <div class="h-[903px] w-full bg-roxo_escuro absolute top-0 left-0 -z-20">
         </div>
