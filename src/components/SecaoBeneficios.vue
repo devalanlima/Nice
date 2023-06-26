@@ -1,10 +1,10 @@
 <template>
-    <div class="flex flex-col h-[577px]">
-        <h3 class="text-center text-2xl text-roxo_escuro font-semibold pl-14 pr-16 tracking-tighter">Um subtítulo para quem
+    <div class="flex flex-col">
+        <h3 class="text-center text-2xl text-roxo_escuro font-semibold pl-14 pr-16 tracking-tighter leading-normal mb-6">Um subtítulo para quem
             rolou até aqui!</h3>
-        <p class="px-4 text-center tracking-tight text-cinza_escuro">Aproveite esta seção para destacar os benefícios do seu
+        <p class="px-4 text-center tracking-tight text-cinza_escuro leading-normal">Aproveite esta seção para destacar os benefícios do seu
             produto ou serviço. Palavras-chave ajudam no SEO.</p>
-        <div class="flex pl-8 gap-6 w-full overflow-x-auto mt-3 pr-8 h-[500px]">
+        <div class="flex pl-8 gap-6 w-full overflow-x-auto mt-3 pr-8 pb-14">
             <BeneficioCard 
                 title="Rápido"
                 description="Aproveite esta seção para destacar os benefícios do seu produto ou serviço.">
