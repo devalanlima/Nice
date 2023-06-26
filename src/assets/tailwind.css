@@ -6,7 +6,4 @@
     html{
         @apply font-poppins
     }
-    p {
-        @apply leading-normal
-    }
 }
