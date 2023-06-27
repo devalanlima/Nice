@@ -1,5 +1,5 @@
 <template>
-    <div class="h-[864px] w-full overflow-hidden">
+    <div class="h-[864px] w-full overflow-hidden text-cinza_escuro">
         <div class="pl-[31px] pr-[33px] flex flex-col gap-4">
             <p class="text-roxo">#CONTECOMAGENTE</p>
             <h3 class="font-bold text-4xl leading-normal text-roxo_escuro">Simples, rápido e do seu jeito.</h3>
