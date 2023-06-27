@@ -2,6 +2,7 @@
 import NavBar from './components/NavBar.vue';
 import BannerPrincipal from './components/BannerPrincipal.vue'
 import SecaoBeneficios from './components/SecaoBeneficios.vue';
+import SecaoQuemSomos from './components/SecaoQuemSomos.vue';
 </script>
 
 <template>
@@ -11,5 +12,6 @@ import SecaoBeneficios from './components/SecaoBeneficios.vue';
   <main class="flex flex-col gap-4">
     <BannerPrincipal/>
     <SecaoBeneficios/>
+    <SecaoQuemSomos/>
   </main>
 </template>
