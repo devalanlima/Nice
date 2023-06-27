@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue';
 import BannerPrincipal from './components/BannerPrincipal.vue'
 import SecaoBeneficios from './components/SecaoBeneficios.vue';
 import SecaoQuemSomos from './components/SecaoQuemSomos.vue';
+import SecaoContato from './components/SecaoContato.vue';
 </script>
 
 <template>
@@ -13,5 +14,6 @@ import SecaoQuemSomos from './components/SecaoQuemSomos.vue';
     <BannerPrincipal/>
     <SecaoBeneficios/>
     <SecaoQuemSomos/>
+    <SecaoContato/>
   </main>
 </template>
