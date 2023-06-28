@@ -4,6 +4,7 @@ import BannerPrincipal from './components/BannerPrincipal.vue'
 import SecaoBeneficios from './components/SecaoBeneficios.vue';
 import SecaoQuemSomos from './components/SecaoQuemSomos.vue';
 import SecaoContato from './components/SecaoContato.vue';
+import SecaoFinal from './components/SecaoFinal.vue';
 </script>
 
 <template>
@@ -16,4 +17,7 @@ import SecaoContato from './components/SecaoContato.vue';
     <SecaoQuemSomos/>
     <SecaoContato/>
   </main>
+  <footer>
+    <SecaoFinal/>
+  </footer>
 </template>
