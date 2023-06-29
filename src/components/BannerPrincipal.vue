@@ -14,7 +14,7 @@
             </div>
         </div>
         <div class="relative mx-auto w-[375px] h-[560px] -mt-8 grid place-items-center sm:mx-auto md:mt-0 md:-mb-5 md:mx-0 ">
-            <img class="w-full h-full object-cover" src="/images/Businessman investing in bitcoin.png" alt="Imagem de um homem investidor segurando uma esfera roxa">
+            <img class="w-full h-full object-cover" src="/images/Businessmaninvestinginbitcoin.png" alt="Imagem de um homem investidor segurando uma esfera roxa">
             <div class="absolute grid place-items-center top-0 left-16 -z-10 w-[317px] h-[362px] rounded-full ">
                 <div class="w-[317px] h-[317px] rounded-full bg-gradient-1 blur-[100px]">
                 </div>
