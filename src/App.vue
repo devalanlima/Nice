@@ -11,7 +11,7 @@ import SecaoFinal from './components/SecaoFinal.vue';
   <header class="mb-6 px-5 pt-10 xl:px-28">
     <NavBar/>
   </header>
-  <main class="flex flex-col gap-4">
+  <main class="flex flex-col">
     <BannerPrincipal/>
     <SecaoBeneficios/>
     <SecaoQuemSomos/>
