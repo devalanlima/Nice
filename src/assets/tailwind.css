@@ -4,6 +4,6 @@
 
 @layer base {
     html{
-        @apply font-poppins
+        @apply font-poppins max-w-[2000px] mx-auto scroll-smooth
     }
 }
