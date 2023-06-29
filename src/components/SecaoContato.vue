@@ -25,7 +25,7 @@
                     <input aria-label="Nome"
                     :class="['w-full h-[40px] outline-[1px] outline-roxo_claro rounded-lg pl-4 py-2 text-cinza_escuro outline focus:outline-roxo_escuro focus:outline-2', {'focus:outline-red-500 outline-red-500': !nomeIsValid}]"
                         type="text" id="nameContato" placeholder="Nome Sobrenome" autocomplete="name" required
-                        v-model.trim="nome" @input="validateNome">
+                        v-model.trim="nome">
                 </div>
                 
                 <div class="flex flex-col gap-[5px]">
@@ -33,7 +33,7 @@
                     <input aria-label="Email"
                         :class="['w-full h-[40px] outline-[1px] outline-roxo_claro rounded-lg pl-4 py-2 text-cinza_escuro outline focus:outline-roxo_escuro focus:outline-2', {'focus:outline-red-500 outline-red-500': !emailIsValid}]"
                         type="email" id="emailContato" placeholder="nome@email.com.br" autocomplete="email" required
-                        v-model="email" @input="validateEmail"
+                        v-model="email"
                         pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$"
                         >
                 </div>
@@ -45,11 +45,11 @@
                     <input aria-label="Telefone"
                     :class="['w-full h-[40px] outline-[1px] outline-roxo_claro rounded-lg pl-4 py-2 text-cinza_escuro outline focus:outline-roxo_escuro focus:outline-2', {'focus:outline-red-500 outline-red-500': !telefoneIsValid}]"
                         type="tel" id="telefoneContato" placeholder="(00)0000-0000" maxlength="14" autocomplete="tel"
-                        required v-model="telefone" @input="validateTelefone" 
+                        required v-model="telefone" 
                         pattern="^\(\d{2}\)\d{4,5}-\d{4}$"
                         >
                 </div>
-                <BotaoAmarelo class="mt-8 mx-auto mr-0" text="Enviar!" type="submit" :disabled="!nomeIsValid || !emailIsValid || !telefoneIsValid ||nome.length === 0 || email.length === 0 || telefone.length === 0 "/>
+                <BotaoAmarelo class="mt-8 mx-auto mr-0" text="Enviar!" type="submit" :disabled="!nomeIsValid || !emailIsValid || !telefoneIsValid || nome.length === 0 || email.length === 0 || telefone.length === 0 "/>
             </form>
         </div>
     </div>
@@ -62,35 +62,28 @@ const nome = ref('')
 const email = ref('')
 const telefone = ref('')
 
-const validateNome = () => {
+const nomeIsValid = computed(()=>{
     const nomeRegex = /^[\p{L}\p{M}\s']{2,}(?:[\s'-][\p{L}\p{M}']+){1,}$/u
     if (nomeRegex.test(nome.value) || nome.value.length === 0) {
         return true
     } else {
         return false
     }
-}
-
-const nomeIsValid = computed(()=>{
-    return validateNome()
 })
 
-const validateEmail = () => {
+const emailIsValid = computed(()=>{
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
     if (emailRegex.test(email.value) || email.value.length === 0) {
         return true
     } else {
         return false
     }
-}
-
-const emailIsValid = computed(()=>{
-    return validateEmail()
 })
 
 const newLength = ref(0)
 const oldLength = ref(0)
-const validateTelefone = () => {
+
+const telefoneIsValid = computed(()=>{
     const telefoneRegex = /^\(\d{2}\)\d{4,5}-\d{4}$/
     telefone.value = telefone.value.replace(/[^()\d-]+/,'')
     newLength.value = telefone.value.length
@@ -116,9 +109,5 @@ const validateTelefone = () => {
     } else {
         return false
     }
-}
-
-const telefoneIsValid = computed(()=>{
-    return validateTelefone()
 })
 </script>

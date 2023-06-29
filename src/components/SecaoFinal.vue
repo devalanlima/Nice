@@ -42,7 +42,6 @@
                     <input id="inscrever" type="email" :class="['outline outline-1 outline-branco bg-transparent rounded-tl-lg rounded-bl-lg py-3 pl-3 w-full text-branco',{'outline-red-400': !emailIsValid}]" placeholder="nome@email.com" 
                     aria-label="Email"
                     v-model="email"
-                    @input="validateEmail"
                     pattern="^[^\s@]+@[^\s@]+\.[^\s@]{2,}$"
                     required
                     >
@@ -60,16 +59,12 @@ import { computed, ref } from 'vue'
 
 const email = ref('')
 
-const validateEmail = () => {
+const emailIsValid = computed(()=>{
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
     if (emailRegex.test(email.value) || email.value.length === 0) {
         return true
     } else {
         return false
     }
-}
-
-const emailIsValid = computed(()=>{
-    return validateEmail()
 })
 </script>
