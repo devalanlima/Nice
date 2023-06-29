@@ -13,13 +13,13 @@
         </button>
         <ul :class="['absolute top-12 bg-white px-10 pl-14 py-5 -left-10 flex flex-col gap-5 rounded-br-lg md:flex md:relative md:p-0 md:flex-row md:w-full md:justify-around lg:justify-between md:mx-auto md:max-w-[560px] md:left-0 md:top-0 lg:mr-28', {'hidden': !menuView}]">
             <li class="relative md:inline">
-                <a href="#" class="hover:before:content-['•'] before:absolute before:-left-4 before:top-1/2 before:-translate-y-1/2 before:text-2xl">o que fazemos</a>
+                <a href="#secao-beneficios" class="hover:before:content-['•'] before:absolute before:-left-4 before:top-1/2 before:-translate-y-1/2 before:text-2xl">o que fazemos</a>
             </li>
             <li class="relative md:inline">
-                <a href="#" class="hover:before:content-['•'] before:absolute before:-left-4 before:top-1/2 before:-translate-y-1/2 before:text-2xl">como te ajudamos</a>
+                <a href="#secao-quemsomos" class="hover:before:content-['•'] before:absolute before:-left-4 before:top-1/2 before:-translate-y-1/2 before:text-2xl">como te ajudamos</a>
             </li>
             <li class="relative md:inline">
-                <a href="#" class="hover:before:content-['•'] before:absolute before:-left-4 before:top-1/2 before:-translate-y-1/2 before:text-2xl">fale conosco</a>
+                <a href="#secao-faleconosco" class="hover:before:content-['•'] before:absolute before:-left-4 before:top-1/2 before:-translate-y-1/2 before:text-2xl">fale conosco</a>
             </li>
         </ul>
         <div class="absolute left-1/2 -translate-x-1/2 md:relative md:translate-x-0 md:left-0 md:-order-1">
