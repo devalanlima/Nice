@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full max-w-screen overflow-hidden text-cinza_escuro relative mx-auto">
-        <div class="absolute -right-44 top-80 md:top-10 xl:-right-20">
+    <div class="w-full max-w-[2000px] overflow-hidden text-cinza_escuro relative mx-auto">
+        <div class="absolute -right-44 top-80 md:top-10 xl:-right-[150px] 2xl:right-28">
             <img class="object-contain w-[187px] blur-[2px] hidden -ml-52 xl:block" src="/images/Burger Shape.png"
                 alt="Imagem de uma esfera roxa partida em duas metades">
             <img class="rotate-[60deg] blur-md object-contain w-[247px] xl:-mt-56" src="/images/Burger Shape.png"
@@ -19,11 +19,11 @@
                 </p>
                 <BotaoAmarelo class="mt-2 sm:mt-8" text="Eu quero!" />
             </div>
-            <div class="relative pb-0">
+            <div class="relative pb-0 pt-12 sm:pt-0 xl:mr-10">
                 <div class="relative w-[375px]">
                     <img class="absolute left-7 top-12 object-contain w-16" src="/images/Burger Shape.png"
                         alt="Imagem de uma esfera roxa partida em duas metades">
-                    <img class="mx-auto" src="/images/Man talking on phone.png" alt="">
+                    <img class="mx-auto" src="/images/Man talking on phone.png" alt="Imagem de um homem segurando um telefone">
                 </div>
                 <div
                     class="absolute grid place-items-center -top-20 left-5 -z-10 w-[317px] h-[300px] rounded-full md:-top-0 lg:-top-0 lg:left-14">

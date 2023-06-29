@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col w-full max-w-[1100px] mx-autogi">
+    <div class="flex flex-col w-full max-w-[1100px] mx-auto">
         <div class="flex flex-col gap-3">
             <h3 class="text-center text-2xl text-roxo_escuro font-semibold pl-14 pr-16 tracking-tighter leading-normal">Um subtítulo para quem
                 rolou até aqui!</h3>
