@@ -19,14 +19,14 @@
             class="snap-center"
                 title="Do seu jeito"
                 description="Aproveite esta seção para destacar os benefícios do seu produto ou serviço.">
-                    <img src="/images/Ethereum Coin.png" alt="Imagem de uma mão segurando a criptomoeda Etherium">
+                    <img src="/images/EthereumCoin.png" alt="Imagem de uma mão segurando a criptomoeda Etherium">
             </BeneficioCard>
 
             <BeneficioCard 
             class="snap-center"
                 title="Como você queria"
                 description="Aproveite esta seção para destacar os benefícios do seu produto ou serviço.">
-                    <img src="/images/Credit Card.png" alt="Imagem de um alvo com uma flecha cravada no centro">
+                    <img src="/images/CreditCard.png" alt="Imagem de um alvo com uma flecha cravada no centro">
             </BeneficioCard>
         </div>
     </div>
