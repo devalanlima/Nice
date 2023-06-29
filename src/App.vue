@@ -14,7 +14,7 @@ import SecaoFinal from './components/SecaoFinal.vue';
   <main class="flex flex-col">
     <BannerPrincipal/>
     <SecaoBeneficios/>
-    <SecaoQuemSomos/>
+    <SecaoQuemSomos   class="pb-20"/>
     <SecaoContato/>
   </main>
   <footer>
