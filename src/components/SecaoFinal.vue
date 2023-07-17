@@ -44,7 +44,7 @@
                     </ul>
                 </div>
             </div>
-            <form class="pt-12 flex flex-col gap-4 select-none sm:mt-10 sm:flex-row sm:items-center sm:gap-7" action="receba_novidades" method="get" autocomplete="on">
+            <form class="pt-12 flex flex-col gap-4 select-none sm:mt-10 sm:flex-row sm:items-center sm:gap-7" action="receba_novidades" method="get" autocomplete="on" :onsubmit="validateForm">
                 <label for="inscrever" class="text-branco">Receba as novidades do nice</label>
                 <div class="flex h-11 w-full max-w-[365px]">
                     <input id="inscrever" type="email"
@@ -75,4 +75,9 @@ const emailIsValid = computed(() => {
         return false
     }
 })
+
+const validateForm = ()=>{
+    alert('Obrigado por querer se manter informado!')
+    return false
+}
 </script>
