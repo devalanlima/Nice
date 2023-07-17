@@ -22,7 +22,7 @@
                         </div>
                     </a>
                 </div>
-                <form action="fale_conosco" method="get" autocomplete="on" class="pt-12 mx-auto flex flex-col gap-4 sm:pt-0 max-w-[400px] sm:w-full sm:mx-0">
+                <form action="fale_conosco" method="get" class="pt-12 mx-auto flex flex-col gap-4 sm:pt-0 max-w-[400px] sm:w-full sm:mx-0" :onsubmit="validateForm">
                     <div class="flex flex-col gap-[5px]">
                         <label for="nameContato" :class="['text-sm text-roxo font-medium',{'text-red-500': !nomeIsValid}]">Nome<span v-if="!nomeIsValid" class="text-red-500"> inválido</span></label>
                         <input aria-label="Nome"
@@ -114,4 +114,9 @@ const telefoneIsValid = computed(()=>{
         return false
     }
 })
+
+const validateForm = ()=>{
+    alert('Obrigado por querer se manter informado!')
+    return false
+}
 </script>
